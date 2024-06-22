@@ -1,0 +1,21 @@
+Background Properties
+
+shorthand properties 
+
+border-width:
+border-style :
+border-color: 
+border : width style color;
+
+font-family: 
+font-weight:;
+font-style : ;
+line-height: ; 
+font-size : ;
+
+
+gradient : linear, radial 
+box-shadow
+
+
+/* background : color url() repeat attachment postion; */

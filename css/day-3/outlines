@@ -1,0 +1,23 @@
+Outlines
+    - CSS : Cascading StyleSheet
+    - selectors
+        - basic selectors
+            - universal selector
+            - type/element selector
+            - id selector
+            - class selector
+            - attribute selector
+
+selector{
+    property: value;
+}  
+
+h1{
+    color : blue; 
+    background-color : orange;
+}
+
+
+- inline stylesheet
+- internal stylesheet
+- external stylesheet

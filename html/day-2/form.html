@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form Elements</title>
+  </head>
+  <body>
+    <h1>HTML Form Elements</h1>
+    <!-- input type =>   -->
+    <form>
+      <fieldset>
+        <legend>Login Info:</legend>
+        <div>
+          <label for="">Name</label>
+          <input type="text" placeholder="Your Name here....." />
+        </div>
+        <div>
+          <label for="">Password</label>
+          <input type="password" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Personal Info:</legend>
+        <div>
+          <label for="">Age</label>
+          <input type="number" min="18" max="60" step="2" />
+        </div>
+
+        <div>
+          <label for="">Email</label>
+          <input type="email" />
+        </div>
+
+        <div>
+          <label for="">DOB</label>
+          <input type="date" />
+        </div>
+
+        <div>
+          <label for="">Gender</label>
+          <input type="radio" name="gender" checked />male
+          <input type="radio" name="gender" />female
+          <input type="radio" name="gender" />other
+        </div>
+        
+        <div>
+          <label for="">Skills</label>
+          <input type="checkbox" checked />HTML 
+          <input type="checkbox" />CSS
+          <input type="checkbox" />Bootstrap
+        </div>
+      </fieldset>
+
+      <br> 
+      
+      <div>
+        <label>Your Message</label>     
+        <textarea rows="10" cols="30"></textarea>
+      </div>
+
+      <input type="submit" value="Send" />
+      <input type="reset" value="Cancel" />
+    </form>
+  </body>
+</html>
+
+<!-- input element 
+  type = text,password, number, 
+          email, date,checkbox, radio,
+          button, submit, reset, 
+-->
